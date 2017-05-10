@@ -5,7 +5,7 @@
 > use yii\helpers\FileHelper;
 
 > $mimeType = FileHelper::getMimeType($file);
-> Cписок правильных MIME-типов для Microsoft Office документов:
+# Cписок правильных MIME-типов для Microsoft Office документов:
 
 
 Расширение    MIME-тип документа
