@@ -8,8 +8,8 @@
 > Cписок правильных MIME-типов для Microsoft Office документов:
 
 
-Расширение    MIME-тип документа
-  .doc application/msword
+1. Item 1 Расширение    MIME-тип документа
+  1. Item 1a .doc application/msword
   .dot application/msword
 
   .docx application/vnd.openxmlformats-officedocument.wordprocessingml.document
