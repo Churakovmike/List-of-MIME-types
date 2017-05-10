@@ -1,21 +1,21 @@
 # List-of-MIME-types
 
-#Получить MIME-тип любого файла, в Yii2, можно с помощью вызова:
+Получить MIME-тип любого файла, в Yii2, можно с помощью вызова:
 
-#use yii\helpers\FileHelper;
+use yii\helpers\FileHelper;
 
-#$mimeType = FileHelper::getMimeType($file);
-#Cписок правильных MIME-типов для Microsoft Office документов:
+$mimeType = FileHelper::getMimeType($file);
+Cписок правильных MIME-типов для Microsoft Office документов:
 
 
-#Расширение    MIME-тип документа
-#.doc application/msword
-#.dot application/msword
+Расширение    MIME-тип документа
+  .doc application/msword
+  .dot application/msword
 
-.docx application/vnd.openxmlformats-officedocument.wordprocessingml.document
-.dotx application/vnd.openxmlformats-officedocument.wordprocessingml.template
-.docm application/vnd.ms-word.document.macroEnabled.12
-.dotm application/vnd.ms-word.template.macroEnabled.12
+  .docx application/vnd.openxmlformats-officedocument.wordprocessingml.document
+  .dotx application/vnd.openxmlformats-officedocument.wordprocessingml.template
+  .docm application/vnd.ms-word.document.macroEnabled.12
+  .dotm application/vnd.ms-word.template.macroEnabled.12
 
 .xls application/vnd.ms-excel
 .xlt application/vnd.ms-excel
